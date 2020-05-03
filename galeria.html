@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Galeria | Your Restaurante </title>
+        <meta name="viewport" content="width-device-width, user-escalable=yes, initial-scale=1.0, maximum-scale=3.0, minimun-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet">
+        <link href="css/galeria.css" rel="stylesheet">
+        <link href="css/font-iconos.css" rel="stylesheet">      
+    
+    </head>
+    <body>
+
+        <div class="modal" id="modal">
+            <div class="modal_content">
+                <img src="" alt="" class="modal_img" id="modal_img">
+            </div>
+            <div class="modal_boton" id="modal_boton"> X </div>
+
+        </div>
+
+        <header class="main-header">
+            <div class="container container-flex">
+                <div class="logo-container column column-50">
+                    <h1 class="logo"> Your Restaurant </h1> 
+                </div> 
+                <div class="main-header_contactinfo column column-50"> 
+                    <p class="main-header_contactInfo_phone">
+                        <span class="icon-telefono"> 318 376 4966 </span> 
+                    </p>
+                    <p class="main-header_contactInfo_address"> 
+                        <span class="icon-locacion"> Calle 68 # 1-132 Cali- Colombia </span>
+                    </p>
+                </div>
+            </div>
+        </header>
+        
+        <nav class="main-nav">
+            <div class="container container-flex"> 
+                <span class="icon-menu" id="btnmenu"> </span>
+                <ul class="menu" id="menu">
+                    <li class="menu-item"> <a href="index.html" class="menu_link "> Inicio </a> </li>
+                    <li class="menu-item"> <a href="nosotros.html" class="menu_link"> Nosotros </a> </li>
+                    <li class="menu-item"> <a href="galeria.html" class="menu_link menu_link-select"> Galeria </a> </li>
+                    <li class="menu-item"> <a href="contacto.html" class="menu_link"> Contacto </a> </li>
+                </ul>
+                <div class="social-icon"> 
+                    <a href="" class="social-icon_link"> <span class="icon-facebook"> </span></a>
+                    <a href="" class="social-icon_link"> <span class="icon-twitter"> </span></a>
+                    <a href="" class="social-icon_link"> <span class="icon-correo"> </span></a>
+                </div>
+            </div> 
+        </nav>
+
+        <section class="banner"> 
+            <img src="img/Galeria.jpg" alt="" class="banner_img">
+            <div class="banner_content"> Hechale una vista a nuestros mejores platos</div>
+        </section>
+
+         <main class="main"> 
+           <div class="group gallery">
+               <h2 class="group_title"> Nuestros platos </h2>
+               <div class="container container-flex">
+                    <div class="column column-50-25"> 
+                       <img src="img/Galeria/Plato-2.jpg" alt="" class="gallery_img gallery-img-big">
+                       <img src="img/Galeria/Plato-1.jpg" alt="" class="gallery_img gallery-img-small">
+                    </div>
+                    <div class="column column-50-25"> 
+                        <img src="img/Galeria/Plato-3.jpg" alt="" class="gallery_img gallery-img-small">
+                        <img src="img/Galeria/Plato-4.jpg" alt="" class="gallery_img gallery-img-big">
+                    </div>
+                    <div class="column column-50-25">
+                        <img src="img/Galeria/Plato-5.jpg" alt="" class="gallery_img gallery-img-big">
+                        <img src="img/Galeria/Plato-6.jpg" alt="" class="gallery_img gallery-img-small"> 
+                    </div>
+                    <div class="column column-50-25">
+                        <img src="img/Galeria/Plato-7.jpg" alt="" class="gallery_img gallery-img-small">
+                        <img src="img/Galeria/Plato-8.jpg" alt="" class="gallery_img gallery-img-big"> 
+                    </div>
+               </div>
+
+
+
+           </div>
+             
+
+        </main>
+
+        <footer class="main-footer"> 
+            <div class="container container-flex"> 
+                <div class="column column-33"> 
+                    <h2 class="column_title"> ¿Por que visitarnos? </h2>
+                    <p class="column_txt"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Praesentium provident dolor sint optio hic a eveniet modi adipisci, illo dolorum 
+                        perferendis unde? Doloremque suscipit eum veniam, cumque deserunt qui iure.</p>
+                </div>
+                <div class="column column-33"> 
+                   <h2 class="column_title"> Contáctanos </h2>
+                   <p class="column_txt">  Calle 68 # 1-132 Cali- Colombia </p>
+                   <p class="column_txt"> 318 376 4966 </p>
+                   <p class="column_txt"> productionsvab@gmail.com </p>
+               </div>
+               <div class="column column-33"> 
+                   <h2 class="column_title"> Síguenos en nuestras redes </h2>
+                   <p class="column_txt"> <a href="" class="icon-facebook"> </a> Síguenos en Facebook</p>
+                   <p class="column_txt"> <a href="" class="icon-twitter"> </a> Síguenos en Twiter</p>
+                   <p class="column_txt"> <a href="" class="icon-youtube"> </a> Vísita nuestro canal </p>
+               </div>
+               
+                   <p class="copy"> © 2020 Your Restautant | Derechos reservados </p>
+                                 
+            </div>
+        </footer>
+<script src="js/menu.js">    </script>
+<script src="js/modal.js">    </script>
+    </body>
+</html>
